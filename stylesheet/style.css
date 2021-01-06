@@ -77,9 +77,10 @@ p {
 .timeline::before {
     content: '';
     position: absolute;
+    top: 5%;
     left: 50%;
     width: 2px;
-    height: 90%;
+    height: 95%;
     background: #000000;
 }
 
@@ -177,3 +178,9 @@ p {
     border-radius: 18px;
 }
 /* FIM SOBRE */
+
+/* TIME */
+.team {
+    border-radius: 250px;
+}
+/* FIME TIME */
