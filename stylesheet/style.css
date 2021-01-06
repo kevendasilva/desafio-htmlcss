@@ -18,11 +18,10 @@
 
 .t1{
     font-family: Monospace, Lucida Console;
-    text-shadow: 0.2em 0.2em 0.5em #000000;
 }
 
 .t2{
     font-family: JetBrains Mono;
     margin: 0px 0px 30px 0px;
-    text-shadow: 0.4em 0.4em 0.9em #000000;
+    font-weight: bold;
 }
