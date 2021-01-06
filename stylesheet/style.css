@@ -1,5 +1,29 @@
 /* FONTE */
-@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Open+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Open+Sans:wght@300;800&display=swap');
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold; 
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold; 
+}
+
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;   
+}
+
+h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold; 
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
 /* FIM FONTE */
 
 /* SLIDER */
@@ -55,7 +79,7 @@
     position: absolute;
     left: 50%;
     width: 2px;
-    height: 100%;
+    height: 90%;
     background: #000000;
 }
 
@@ -92,9 +116,9 @@
     right: -6px;
     width: 10px;
     height: 10px;
-    background: rgba(233, 33, 99, 1);
+    background: #0079fb;
     border-radius: 50%;
-    box-shadow: 0 0 0 3px rgba(233, 33, 99, 1);
+    box-shadow: 0 0 0 3px #0079fb;
 }
 
 /* Ponto esquerdo */
@@ -105,17 +129,17 @@
     left: -4px;
     width: 10px;
     height: 10px;
-    background: rgba(233, 33, 99, 1);
+    background: #0079fb;
     border-radius: 50%;
-    box-shadow: 0 0 0 3px rgba(233, 33, 99, 1);
+    box-shadow: 0 0 0 3px #0079fb;
 }
 
 /* Título */
 .timeline ul li h3 {
     margin: 0;
     padding: 0;
-    font-weight: 500;
-    color: rgba(233, 33, 99, 1);
+    font-weight: bold;
+    color: #0079fb;
 }
 
 .timeline ul li p {
@@ -136,7 +160,7 @@
     right: -165px;
     margin: 0;
     padding: 8px 16px;
-    background: rgba(233, 33, 99, 1);
+    background: #0079fb;
     color: #fff;
     border-radius: 18px;
 }
@@ -145,10 +169,10 @@
 .timeline ul li:nth-child(even) .time {
     position: absolute;
     top: 20px;
-    left: -165px;
+    left: -180px;
     margin: 0;
     padding: 8px 16px;
-    background: rgba(233, 33, 99, 1);
+    background:#0079fb;
     color: #fff;
     border-radius: 18px;
 }
