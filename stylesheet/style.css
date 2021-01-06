@@ -1,10 +1,9 @@
 .slider-image{
-    background-image: url("../img/slider_image.jpg");
+    background-image: linear-gradient(to top, transparent 0%, #000000 90%), url("../img/s1/slider_image.jpg");
     height: 450px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.95;
     position: relative;
 }
 
