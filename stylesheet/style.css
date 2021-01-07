@@ -57,6 +57,18 @@ p {
 }
 /* FIM SLIDER */
 
+/* Carousel SERVIÇOS */
+.carousel-indicators li {
+    background-color:white;
+    filter: invert(100%);
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: black;
+    filter: invert(100%);
+}
+/* FIM Carousel SERVIÇOS */
+
 /* PORTFOLIO */
 .bg-portfolio {
     background-color: aliceblue;
