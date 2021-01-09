@@ -11,14 +11,25 @@ h2 {
     font-weight: bold; 
 }
 
+h3.slidemd{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
 h4 {
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;   
 }
 
+h4.slidemd {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+}
+
+
 h5 {
     font-family: 'Open Sans', sans-serif;
-    font-weight: bold; 
+    font-weight: bold;
 }
 
 p {
@@ -49,6 +60,7 @@ p {
     font-family: 'Anonymous Pro', monospace;
     font-size: 32px;
 }
+
 /* Titulo 2 */
 .t2 {
     font-family: 'Open Sans', sans-serif;
@@ -72,10 +84,16 @@ p {
     filter: invert(100%);
 }
 
-.carousel-control-prev-icon, .carousel-control-next-icon {
+.carousel-control-prev-icon.servicos, .carousel-control-next-icon.servicos {
     background-color: black;
     filter: invert(100%);
 }
+
+.carousel-control-prev-icon.aliceblue, .carousel-control-next-icon.aliceblue {
+    background-color: #0f0700;
+    filter: invert(100%);
+}
+
 /* FIM Carousel SERVIÇOS */
 
 /* PORTFOLIO */
@@ -102,6 +120,17 @@ p {
     left: 50%;
     width: 2px;
     height: 95%;
+    background: #000000;
+}
+
+/* Barra md */
+.timeline.sobremd::before{
+    content: '';
+    position: absolute;
+    top: 3%;
+    left: 50%;
+    width: 2px;
+    height: 97%;
     background: #000000;
 }
 
@@ -134,7 +163,7 @@ p {
 .timeline ul li:nth-child(odd):before {
     content: '';
     position: absolute;
-    top:32px;
+    top: 32px;
     right: -6px;
     width: 10px;
     height: 10px;
@@ -164,6 +193,14 @@ p {
     color: #0079fb;
 }
 
+/* Título md */
+.timeline ul li h5 {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #0079fb;
+}
+
 .timeline ul li p {
     margin: 10px 0 0;
     padding: 0;
@@ -187,6 +224,7 @@ p {
     border-radius: 18px;
 }
 
+
 /* Data esquerda */
 .timeline ul li:nth-child(even) .time {
     position: absolute;
@@ -197,6 +235,10 @@ p {
     background:#0079fb;
     color: #fff;
     border-radius: 18px;
+}
+
+tamanho {
+    font-size: 16px;
 }
 
 /* FIM SOBRE */
