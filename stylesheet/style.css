@@ -1,7 +1,7 @@
 /* FONTE */
 @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Open+Sans:wght@300;800&display=swap');
 
-h1{
+h1 {
     font-family: 'Open Sans', sans-serif;
     font-weight: bold; 
 }
@@ -28,7 +28,7 @@ p {
 
 /* SLIDER */
 .slider-image {
-    background-image: linear-gradient(to top, transparent 0%, #000000 98%), linear-gradient(to bottom, transparent 0%, #000000 95%), url("../img/s1/slider_image.jpg");
+    background-image: linear-gradient(to top, transparent 0%, #000000 130%), linear-gradient(to bottom, transparent 0%, #000000 130%), url("../img/s1/slider_image.jpg");
     height: 450px;
     background-position: center;
     background-repeat: no-repeat;
@@ -55,6 +55,15 @@ p {
     font-size: 48px;
     margin: 0px 0px 30px 0px;
 }
+
+.btn {
+    box-shadow: 2px 2px #fff;
+}
+
+.btn:hover {
+    background-color: rgb(193, 160, 245);
+}
+
 /* FIM SLIDER */
 
 /* Carousel SERVIÇOS */
@@ -197,3 +206,12 @@ p {
     border-radius: 250px;
 }
 /* FIME TIME */
+
+/* CLIENTES */
+.clientes img{
+    filter: invert(40%);
+    height: 40px;
+    width: auto;
+    margin: 10px 15px;
+}
+/* FIM CLIENTES */
